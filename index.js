@@ -6,7 +6,7 @@ const port = 3000;
 
 //mongoose-connection
 mongoose
-  .connect("mongodb://127.0.0.1:27017/assignment")
+  .connect("mongodb+srv://ankit:root@cluster0.bwqnd79.mongodb.net/assignment")
   .then(() => console.log("MongoDB connected"));
 
 //middleware
